@@ -1,4 +1,5 @@
 import { LitElement, html, css } from 'lit-element';
+import '../../presentation-slide/presentation-slide.js';
 
 export class AppProfileJuan extends LitElement {
   static get properties() {
@@ -10,7 +11,6 @@ export class AppProfileJuan extends LitElement {
   static get styles() {
     return css`
       :host {
-        background-color: #131313;
         color: #fff;
       }
     `;
@@ -24,6 +24,7 @@ export class AppProfileJuan extends LitElement {
   render() {
     return html`
       <h1>Juan Blasco</h1>
+      <presentation-slide></presentation-slide>
     `;
   }
 }

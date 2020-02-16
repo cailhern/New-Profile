@@ -34,6 +34,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+  width: 100%;
+  height: 100%;
+  background-color: #3b3b3b;
 }
 ol, ul {
 	list-style: none;
@@ -54,7 +57,9 @@ table {
   <title>Juan Blasco Veros</title>
 </head>
 <body>
-  <app-profile-juan title="Juan Blasco Veros"></app-profile-juan>
+  <div class="container">
+    <app-profile-juan title="Juan Blasco Veros"></app-profile-juan>
+  </div>
 
   <script type="module" src="./packages/app-profile-juan/app-profile-juan.js"></script>
 </body>
